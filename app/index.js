@@ -29,15 +29,15 @@ class Car {
       this.isSaloon = true;
     }
     
-    this.speed = '0 km/hr';
+    this.speed = '0 km/h';
   } 
   
   drive(n)  {
     if (n == 5) {
-      return (this.speed = 250 + 'km/hr');
+      return (this.speed = 250 + ' km/h');
     }
     else if (n == 7) {
-      return (this.speed = 77 + 'km/hr');
+      return (this.speed = 77 + ' km/h');
     }
   }
 }
