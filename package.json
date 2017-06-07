@@ -1,0 +1,25 @@
+{
+  "name": "car-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jasmine test/tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mazma1/car.git"
+  },
+  "author": "Mary Mazi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mazma1/car/issues"
+  },
+  "homepage": "https://github.com/mazma1/car#readme",
+  "devDependencies": {
+    "jasmine": "^2.6.0"
+  }
+}
