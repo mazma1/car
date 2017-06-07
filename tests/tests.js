@@ -1,5 +1,7 @@
 'use strict'; 
+
 const jasmine = require('jasmine');
+const Car = require('../app/index.js').Car;
 
 describe("Car Class: Create a car, make it drive", function() {
 
